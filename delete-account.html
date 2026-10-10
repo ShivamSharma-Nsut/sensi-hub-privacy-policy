@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Delete Account — Sensi Hub</title>
+<style>
+  :root {
+    --bg: #05080B;
+    --surface: #10141A;
+    --border: #22272F;
+    --text: #E9EDF2;
+    --text-secondary: #9AA4B2;
+    --accent: #FF3B4E;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 48px 20px 80px;
+  }
+  .logo-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 18px;
+  }
+  .logo-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    background: var(--accent);
+  }
+  .app-name {
+    font-weight: 800;
+    font-size: 15px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+  }
+  h1 {
+    font-size: 30px;
+    margin: 0 0 8px;
+    letter-spacing: -0.01em;
+  }
+  .meta {
+    color: var(--text-secondary);
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  h2 {
+    font-size: 19px;
+    margin: 36px 0 12px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+  }
+  p, li { color: #CBD2DA; font-size: 15.5px; }
+  ol, ul { padding-left: 22px; }
+  li { margin-bottom: 10px; }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px 22px;
+    margin: 18px 0;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 14.5px;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--border);
+    color: #CBD2DA;
+  }
+  th {
+    color: var(--text-secondary);
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .contact-box {
+    background: linear-gradient(135deg, rgba(255,59,78,0.12), rgba(230,168,23,0.08));
+    border: 1px solid rgba(255,59,78,0.3);
+    border-radius: 14px;
+    padding: 22px;
+    margin-top: 16px;
+  }
+  .contact-box a { font-weight: 700; font-size: 16px; }
+  footer {
+    margin-top: 56px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--text-secondary);
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="logo-row">
+      <div class="logo-dot"></div>
+      <span class="app-name">Sensi Hub</span>
+    </div>
+    <h1>Delete Your Account</h1>
+    <div class="meta">Last updated: October 10, 2026</div>
+
+    <p>
+      You can request permanent deletion of your Sensi Hub account and its
+      associated data at any time. Sensi Hub does not yet support deleting
+      your account directly inside the app, so deletion requests are
+      handled by email as described below.
+    </p>
+
+    <h2>How to Request Deletion</h2>
+    <div class="card">
+      <ol>
+        <li>Send an email to <a href="mailto:alynostore@gmail.com">alynostore@gmail.com</a> from the same Google account you use to sign in to Sensi Hub.</li>
+        <li>Use the subject line <strong>"Delete My Sensi Hub Account"</strong>.</li>
+        <li>Include your in-app username so we can locate your account.</li>
+      </ol>
+      <p style="margin-bottom:0;">
+        We'll confirm and complete your request within <strong>7 business days</strong>.
+      </p>
+    </div>
+
+    <h2>What Gets Deleted</h2>
+    <table>
+      <tr><th>Data</th><th>Outcome</th></tr>
+      <tr><td>Account profile (name, email, username, avatar)</td><td>Permanently deleted</td></tr>
+      <tr><td>Sensitivities you published</td><td>Permanently deleted</td></tr>
+      <tr><td>Your likes, saves, and notifications</td><td>Permanently deleted</td></tr>
+      <tr><td>Premium subscription status</td><td>Deleted (cancel billing separately via Google Play if subscribed)</td></tr>
+    </table>
+    <p>
+      Locally-stored data on your device (such as your interactions with
+      the App's built-in starter sensitivities) is removed automatically
+      when you uninstall the App.
+    </p>
+
+    <h2>Retention</h2>
+    <p>
+      Once a deletion request is confirmed, your data is removed from our
+      production systems within 7 business days and from backups within
+      30 days.
+    </p>
+
+    <h2>Questions</h2>
+    <div class="contact-box">
+      <p style="margin:0 0 8px; color:var(--text);">
+        For anything related to account deletion or your data, contact us at:
+      </p>
+      <a href="mailto:alynostore@gmail.com">alynostore@gmail.com</a>
+    </div>
+
+    <footer>
+      © 2026 Sensi Hub. See also our <a href="index.html">Privacy Policy</a>.
+    </footer>
+  </div>
+</body>
+</html>
